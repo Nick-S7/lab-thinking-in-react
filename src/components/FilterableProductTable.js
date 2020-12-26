@@ -7,7 +7,7 @@ export default class FilterableProductTable extends Component {
         products: this.props.products.data,
         
     }
-//check for display 
+
     onChange = (event) => {
         const { name, value } = event.target;
         this.setState({
